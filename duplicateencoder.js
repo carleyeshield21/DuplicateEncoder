@@ -37,7 +37,7 @@ function duplicateEncode(word){
     }
     // console.log(array.toString())
     const result = array.toString().replace(/,/g, '');
-    console.log(result);
+    console.log(`${word} conversion:\n${result}`);
 
 }
 duplicateEncode('dindii')
